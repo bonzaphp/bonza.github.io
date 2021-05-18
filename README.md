@@ -1,4 +1,4 @@
-# lework.github.io ![GitHub](https://img.shields.io/github/license/lework/lework.github.io)
+# bonza.github.io ![GitHub](https://img.shields.io/github/license/bonzaphp/bonza.github.io)
 
 personal blog
 
@@ -72,15 +72,7 @@ jekyll s
 显示
 
 ```
-Configuration file: E:/lework.github.io/_config.yml
-            Source: E:/lework.github.io
-       Destination: E:/lework.github.io/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 9.773 seconds.
- Auto-regeneration: enabled for 'E:/lework.github.io'
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
+####  
 ```
 
 在本地访问 localhost:4000 即可看到博客主页。
