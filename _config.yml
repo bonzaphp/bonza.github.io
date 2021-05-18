@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-
+encoding: utf-8
 # Site settings
 title: bonza
 brief-intro: Front-end Dev Engineer
@@ -26,17 +26,33 @@ dribbble_username:
 description_footer: 编码征途路漫漫，填坑旅行述辛酸！
 
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: bonza
+# 三种评论插件，选一个就好了
+disqus_shortname: #lework
+gitalk:
+  enable: false
+  clientID: 050d8e74367361039597
+  clientSecret: be5f039ec93c92512d2a14dc1fcdfb9233ce5a4c
+  repo: bonza.github.io
+  owner: bonza
+  admin: bonza
+utteranc_es:
+  enable: true
+  repo: 'bonzaphp/bonza.github.io'
+  issue-term: pathname
+  theme: github-light
+
+# 赞赏
+reward:
+  enable: true
+  wechat: /assets/images/reward/wechat.png
+  alipay: /assets/images/reward/alipay.png
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id:
+google_analytics_id:
 
 # Build settings
 markdown: kramdown
@@ -56,8 +72,8 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 10
 
-plugins:
-  - jekyll-paginate
+exclude: ["README.md", "LICENSE", ".post-template", ".gitignore", "start.bat"]
+
