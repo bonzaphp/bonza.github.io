@@ -1,4 +1,4 @@
-# bonza.github.io ![GitHub](https://img.shields.io/github/license/bonzaphp/bonza.github.io)
+# blog.bonza.cn ![GitHub](https://img.shields.io/github/license/bonzaphp/bonza.github.io)
 
 personal blog
 

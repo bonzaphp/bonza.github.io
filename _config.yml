@@ -7,7 +7,7 @@
 encoding: utf-8
 # Site settings
 title: bonza
-brief-intro: Front-end Dev Engineer
+brief-intro: The backend development engineers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.bonza.cn" # the base hostname & protocol for your site
 
@@ -27,7 +27,7 @@ description_footer: 编码征途路漫漫，填坑旅行述辛酸！
 
 # comments
 # 三种评论插件，选一个就好了
-disqus_shortname: #lework
+disqus_shortname: #bonza
 gitalk:
   enable: false
   clientID: 050d8e74367361039597
