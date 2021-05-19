@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "React Hooks 系列之7 useRef"
+title:  "thinkphp响应gd库生成的图片"
 categories: thinkphp
-tags: React hooks
+tags: thinkphp extension-gd
 author: HyG
 ---
 
