@@ -12,6 +12,8 @@ author: 来财
 {:toc}
 
 
+
+
 Lmstfy 是一个基于 Redis 的轻量级任务队列系统。本文介绍 Lmstfy 的基本配置和依赖要求。
 
 # 项目地址
