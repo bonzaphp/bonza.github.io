@@ -13,6 +13,7 @@ author: HyG
 2. 绘制相应的点
 
 
+
 ```php
 #检查是否存在必要扩展
 if (extension_loaded('gd')) {
