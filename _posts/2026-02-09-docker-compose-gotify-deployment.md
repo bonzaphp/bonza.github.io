@@ -11,7 +11,9 @@ author: 来财
 * content
 {:toc}
 
-Nigate 是一款专门为 Mac 用户设计的 NTFS 读写工具，它提供了图形界面和命令行两种使用方式，让 Mac 用户能够轻松读写 NTFS 格式的磁盘设备。
+Gotify 是一个基于 Go 语言开发的消息推送服务，提供 RESTful API、多平台客户端和 Web 管理界面。本文介绍了使用 Docker Compose 快速部署 Gotify 服务的完整方案，包含主服务器和增强通知服务的配置，以及常用命令和安全建议。
+
+
 
 # 什么是 Gotify？
 
