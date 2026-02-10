@@ -106,31 +106,31 @@ where()、order()、limit() 等SQL方法只能出现在 Model层、业务层！
 
 用代码来说明下：
 
-![](http://note.youdao.com/yws/res/667/2EFB12989B464F6E93304CAEBFB6E386)
+![](https://blog-bucket.qiniudns.com/blog/php-namespace-use-declaration.png)
 
 namespace下空一行，才能使用use，再空一行，才能声明class
 
-![](http://note.youdao.com/yws/res/665/E4A005EFB9D34A67BC29A96B66AE29E0)
+![](https://blog-bucket.qiniudns.com/blog/php-class-declaration-format.png)
 
  ### 2、类(class)，属性(property)和方法(method)
 
 （1）、继承(extends) 和实现(implement) 必须和 class name 写在一行。
 
-![](http://note.youdao.com/yws/res/673/11635B4693834DF5B00A425827D565DD)
+![](https://blog-bucket.qiniudns.com/blog/php-class-extends-implement.png)
 
 （2）、属性(property)必须声明其可见性，到底是 public 还是 protected 还是 private，不能省略，也不能使用var, var是php老版本中的什么方式，等用于public。
 
-![](http://note.youdao.com/yws/res/669/A53D1E29B3BF4ED4BABCE9580904B08D)
+![](https://blog-bucket.qiniudns.com/blog/php-property-visibility.png)
 
 （3）、方法(method)，必须 声明其可见性，到底是 public 还是 protected 还是 private，不能省略。如果有多个参数，第一个参数后紧接"|" ，再加一个空格：function_name ($par, $par2, $pa3), 如果参数有默认值，"="左右各有一个空格分开。
 
-![](http://note.youdao.com/yws/res/668/D8B6B3A267D644C98ADCDD0E3A191486)
+![](https://blog-bucket.qiniudns.com/blog/php-method-parameters.png)
 
 （4）、当用到抽象(abstract)和终结(final)来做类声明时，它们必须放在可见性声明 （public 还是protected还是private）的前面。而当用到静态(static)来做类声明时，则必须放在可见性声明的后面。
 
 直接上代码：
 
-![](http://note.youdao.com/yws/res/670/4465B5EACA6A4B67A30EC3F04D1F8FA2)
+![](https://blog-bucket.qiniudns.com/blog/php-abstract-final-static.png)
 
 ### 3、控制结构
 
@@ -138,27 +138,27 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 （1）、if，elseif，else写法，直接上规范代码吧：
 
-![](http://note.youdao.com/yws/res/675/CA5EF6B1D7874419A12DD45D46E2CF60)
+![](https://blog-bucket.qiniudns.com/blog/php-if-elseif-else-format.png)
 
 （2）、switch，case 注意空格和换行，还是直接上规范代码：
 
-![](http://note.youdao.com/yws/res/661/007F8B03635940C2A780B490F3227CF1)
+![](https://blog-bucket.qiniudns.com/blog/php-switch-case-format.png)
 
 （3）、while，do while 的写法也是类似，上代码：
 
-![](http://note.youdao.com/yws/res/671/5ADA347C7D634B9490F029B7E845190D)
+![](https://blog-bucket.qiniudns.com/blog/php-while-do-while-format.png)
 
 （4）、for的写法
 
-![](http://note.youdao.com/yws/res/677/0F7B11C2A275462499118A42D7639C24)
+![](https://blog-bucket.qiniudns.com/blog/php-for-loop-format.png)
 
 （5）、foreach的写法
 
-![](http://note.youdao.com/yws/res/676/AB3B908B0E424EB4AB4B5D63F617EB77)
+![](https://blog-bucket.qiniudns.com/blog/php-foreach-format.png)
 
 6）、try catch的写法
 
-![](http://note.youdao.com/yws/res/672/FB519B3FF440467A947FC0733A66FC7F)
+![](https://blog-bucket.qiniudns.com/blog/php-try-catch-format.png)
 
 ### 4、注释
 
@@ -178,7 +178,7 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 *   数据表和字段采用小写加下划线方式命名，并注意字段名不要以下划线开头，例如 think_user 表和 user_name字段，不建议使用驼峰和中文作为数据表字段命名。
 
-![](http://note.youdao.com/yws/res/664/53479410408743B1B229DBB8D9750DF3)
+![](https://blog-bucket.qiniudns.com/blog/php-database-naming.png)
 
  5、空格
 
@@ -210,21 +210,21 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 参考1：
 
-![](http://note.youdao.com/yws/res/674/3FB46EDD4D864DA4A1D1FF86E2B395C3)
+![](https://blog-bucket.qiniudns.com/blog/php-code-example-1.png)
 
 参考2:
 
-![](http://note.youdao.com/yws/res/666/FC6504EE3570489DB8F362A2451FBDF9)
+![](https://blog-bucket.qiniudns.com/blog/php-code-example-2.png)
 
 参考3：
 
-![](http://note.youdao.com/yws/res/660/AF73C6220B4941BA9B8B001A455987BA)
+![](https://blog-bucket.qiniudns.com/blog/php-code-example-3.png)
 
 参考4：
 
-![](http://note.youdao.com/yws/res/663/063DFD51E41342438B17BAE8F8977324)
+![](https://blog-bucket.qiniudns.com/blog/php-code-example-4.png)
 
-![示例](http://note.youdao.com/yws/res/1097/C00720EE62E843DD8CC5024C0210C46F)
+![示例](https://blog-bucket.qiniudns.com/blog/php-code-example-summary.png)
 
 总结：所有除类，方法以外的左花括号 { 都不换行，并且 ｛ 紧挨着的下方，一定没有空行！
 
