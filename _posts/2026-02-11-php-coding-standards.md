@@ -106,31 +106,31 @@ where()、order()、limit() 等SQL方法只能出现在 Model层、业务层！
 
 用代码来说明下：
 
-![](https://blog-bucket.qiniudns.com/blog/php-namespace-use-declaration.png)
+![](/assets/php-coding/php-namespace-use-declaration.png)
 
 namespace下空一行，才能使用use，再空一行，才能声明class
 
-![](https://blog-bucket.qiniudns.com/blog/php-class-declaration-format.png)
+![](/assets/php-coding/php-class-declaration-format.png)
 
  ### 2、类(class)，属性(property)和方法(method)
 
 （1）、继承(extends) 和实现(implement) 必须和 class name 写在一行。
 
-![](https://blog-bucket.qiniudns.com/blog/php-class-extends-implement.png)
+![](/assets/php-coding/php-class-extends-implement.png)
 
 （2）、属性(property)必须声明其可见性，到底是 public 还是 protected 还是 private，不能省略，也不能使用var, var是php老版本中的什么方式，等用于public。
 
-![](https://blog-bucket.qiniudns.com/blog/php-property-visibility.png)
+![](/assets/php-coding/php-property-visibility.png)
 
 （3）、方法(method)，必须 声明其可见性，到底是 public 还是 protected 还是 private，不能省略。如果有多个参数，第一个参数后紧接"|" ，再加一个空格：function_name ($par, $par2, $pa3), 如果参数有默认值，"="左右各有一个空格分开。
 
-![](https://blog-bucket.qiniudns.com/blog/php-method-parameters.png)
+![](/assets/php-coding/php-method-parameters.png)
 
 （4）、当用到抽象(abstract)和终结(final)来做类声明时，它们必须放在可见性声明 （public 还是protected还是private）的前面。而当用到静态(static)来做类声明时，则必须放在可见性声明的后面。
 
 直接上代码：
 
-![](https://blog-bucket.qiniudns.com/blog/php-abstract-final-static.png)
+![](/assets/php-coding/php-abstract-final-static.png)
 
 ### 3、控制结构
 
@@ -138,27 +138,27 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 （1）、if，elseif，else写法，直接上规范代码吧：
 
-![](https://blog-bucket.qiniudns.com/blog/php-if-elseif-else-format.png)
+![](/assets/php-coding/php-if-elseif-else-format.png)
 
 （2）、switch，case 注意空格和换行，还是直接上规范代码：
 
-![](https://blog-bucket.qiniudns.com/blog/php-switch-case-format.png)
+![](/assets/php-coding/php-switch-case-format.png)
 
 （3）、while，do while 的写法也是类似，上代码：
 
-![](https://blog-bucket.qiniudns.com/blog/php-while-do-while-format.png)
+![](/assets/php-coding/php-while-do-while-format.png)
 
 （4）、for的写法
 
-![](https://blog-bucket.qiniudns.com/blog/php-for-loop-format.png)
+![](/assets/php-coding/php-for-loop-format.png)
 
 （5）、foreach的写法
 
-![](https://blog-bucket.qiniudns.com/blog/php-foreach-format.png)
+![](/assets/php-coding/php-foreach-format.png)
 
 6）、try catch的写法
 
-![](https://blog-bucket.qiniudns.com/blog/php-try-catch-format.png)
+![](/assets/php-coding/php-try-catch-format.png)
 
 ### 4、注释
 
@@ -178,7 +178,7 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 *   数据表和字段采用小写加下划线方式命名，并注意字段名不要以下划线开头，例如 think_user 表和 user_name字段，不建议使用驼峰和中文作为数据表字段命名。
 
-![](https://blog-bucket.qiniudns.com/blog/php-database-naming.png)
+![](/assets/php-coding/php-database-naming.png)
 
  5、空格
 
@@ -210,21 +210,21 @@ namespace下空一行，才能使用use，再空一行，才能声明class
 
 参考1：
 
-![](https://blog-bucket.qiniudns.com/blog/php-code-example-1.png)
+![](/assets/php-coding/php-code-example-1.png)
 
 参考2:
 
-![](https://blog-bucket.qiniudns.com/blog/php-code-example-2.png)
+![](/assets/php-coding/php-code-example-2.png)
 
 参考3：
 
-![](https://blog-bucket.qiniudns.com/blog/php-code-example-3.png)
+![](/assets/php-coding/php-code-example-3.png)
 
 参考4：
 
-![](https://blog-bucket.qiniudns.com/blog/php-code-example-4.png)
+![](/assets/php-coding/php-code-example-4.png)
 
-![示例](https://blog-bucket.qiniudns.com/blog/php-code-example-summary.png)
+![示例](/assets/php-coding/php-code-example-summary.png)
 
 总结：所有除类，方法以外的左花括号 { 都不换行，并且 ｛ 紧挨着的下方，一定没有空行！
 
