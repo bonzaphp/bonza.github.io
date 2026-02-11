@@ -11,6 +11,11 @@ author: 来财
 * content
 {:toc}
 
+# 目录
+
+
+
+
 
 
 
@@ -1150,11 +1155,11 @@ steps:
         from_secret: slack_webhook
       channel: ci-cd
       template: >
-        {{#success build.status}}
+        {% raw %}{{#success build.status}}{% endraw %}
         ✅ Build {{build.number}} succeeded for {{repo.name}}
         {{else}}
         ❌ Build {{build.number}} failed for {{repo.name}}
-        {{/success}}
+        {% raw %}{{/success}}{% endraw %}
     when:
       status: [success, failure]
 ```
