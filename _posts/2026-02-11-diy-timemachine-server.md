@@ -7,6 +7,14 @@ tags: macos timemachine 备份 netatalk afp
 author: 来财
 ---
 
+直接说：之前是定期备份，每次备份就要插上移动硬盘，非常不方便。另外网络备份，如果选用 apple 的设备，那价格太感人了用不起。因此选择自建，局域网内同步除了首次同步需要耗费很长时间，其他还好。
+
+* content
+{:toc}
+
+
+
+
 
 # 自建 timemachine 服务器
 
