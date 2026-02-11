@@ -6,6 +6,10 @@ categories: mcp
 tags: mcp 今日头条 toutiao 配置 安装教程
 author: 来财
 ---
+* content
+{:toc}
+
+
 
 今日头条 MCP 服务器是一个强大的 Model Context Protocol (MCP) 服务，为大语言模型提供了访问今日头条内容的能力。本文将详细介绍如何配置和安装 toutiao_mcp_server。
 
