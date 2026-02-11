@@ -11,7 +11,6 @@ author: 来财
 * content
 {:toc}
 
-# 目录
 
 # PHP项目编码规范
 

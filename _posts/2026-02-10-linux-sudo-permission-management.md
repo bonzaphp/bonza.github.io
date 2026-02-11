@@ -11,7 +11,6 @@ author: 来财
 * content
 {:toc}
 
-# 目录
 
 # Linux sudo 权限管理深度指南：配置、应用与安全实践
 

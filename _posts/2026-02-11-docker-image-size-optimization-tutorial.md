@@ -11,7 +11,6 @@ author: 来财
 * content
 {:toc}
 
-# 目录
 
 # Docker 镜像制作教程：减小镜像体积
 
