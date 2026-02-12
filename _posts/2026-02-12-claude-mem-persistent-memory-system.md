@@ -3,7 +3,7 @@ layout: post
 title:  "Claude-Mem：Claude Code 持久化记忆系统，让 AI 拥有跨会话记忆能力"
 date:   2026-02-12 23:55:00 +0800
 categories: ai
-tags: claude-code memory persistent-memory ai-tools claude-mem 记忆系统
+tags: claude-code memory persistent-memory ai-tools claude-mem 记忆系统 github
 author: 来财
 ---
 
