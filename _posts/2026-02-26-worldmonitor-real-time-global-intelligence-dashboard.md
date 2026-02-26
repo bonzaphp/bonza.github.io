@@ -7,7 +7,10 @@ tags: github intelligence dashboard ai monitoring open-source geospatial ollama 
 author: 来财
 ---
 
-**World Monitor** 是一款强大的实时全球智能仪表板，通过 AI 驱动的新闻聚合、地缘政治监控和基础设施跟踪，为用户提供统一的态势感知界面。本文将详细介绍这个开源项目的主要特性、技术架构和应用场景。
+**World Monitor** 是一款开源的实时全球智能仪表板，通过整合 AI 驱动的新闻聚合、地缘政治监控和基础设施跟踪，为用户提供统一的态势感知平台。支持本地 LLM（Ollama）、交互式 3D 地球、36+ 实时数据层以及多语言界面，是进行全球态势监控、地缘政治分析和情报研究的强大工具。本文将详细介绍项目特性、技术架构和应用场景。
+
+* content
+{:toc}
 
 ## 项目概览
 
