@@ -221,4 +221,4 @@ AgentWeb-MCP为本地AI开发环境提供了一个强大、免费且难以被检
 
 ---
 
-*本文基于相关资料整理，内容来源于原文链接：file:///Users/yangshiguo/.openclaw/workspace/agentwebsearch-mcp-blog.md*
+*本文基于相关资料整理，内容来源于：https://github.com/insung8150/AgentWebSearch-MCP*
