@@ -1,17 +1,13 @@
 ---
 layout: post
 title: "CoPaw - 您的个人 AI 助手"
-date: "2026-03-02 10:35"
-categories: ai
+date: 2026-03-02 10:35:00 +0800
+categories: 开源项目
 tags: Python Go Docker Git GitHub API AI 大语言模型
-author: lework
-excerpt: CoPaw 是一个易于安装部署的个人 AI 助手，支持多种聊天应用，具备可扩展能力。
-
-
-
-
+author: 来财
 ---
 
+CoPaw 是一个易于安装部署的个人 AI 助手，支持多种聊天应用，具备可扩展能力。
 
 
 
