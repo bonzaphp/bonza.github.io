@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WiFi DensePose：用WiFi信号透视墙壁的革命性技术"
-date: 2026-03-02 22:38:00 +0800
+date: 2026-03-02 15:19:00 +0800
 categories: 开源项目
 tags: WiFi AI 计算机视觉 隐私保护 开源项目
 author: 来财
