@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "WiFi DensePose：用WiFi信号透视墙壁的革命性技术"
-date: "2026-03-02 22:38"
-category: tech
-tags: [WiFi, AI, 计算机视觉, 隐私保护, 开源项目]
-author: lework
+date: 2026-03-02 22:38:00 +0800
+categories: 开源项目
+tags: WiFi AI 计算机视觉 隐私保护 开源项目
+author: 来财
 ---
 
-WiFi DensePose 让我们能够通过WiFi信号"看穿"墙壁。无需摄像头，无需穿戴设备，仅靠无线电波就能实现实时人体姿态估计、生命体征监测和存在检测。
+WiFi DensePose 让我们能够通过WiFi信号"看穿"墙壁。无需摄像头，无需穿戴设备，仅靠无线电波就能实现实时人体姿态估计、生命体征监测和存在检测。这是一个突破性的开源项目，它将普通的WiFi信号转化为实时的人体感知能力。
+
+
+
 
 * content
 {:toc}
