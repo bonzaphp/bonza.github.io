@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "IronClaw: 打造属于你的安全个人AI助手"
-date: "2026-03-06 22:17:11"
-category: AI
-tags: [AI助手, Rust, 安全, 开源, 个人AI]
+date: 2026-03-06 22:17:11 +0800
+categories: AI
+tags: AI助手 Rust 安全 开源 个人AI
 author: lework
 ---
-* content
-{:toc}
 
 IronClaw 是一个基于 Rust 开发的个人 AI 助手框架，主打安全性和隐私保护。与 ChatGPT、Claude 等云服务不同，IronClaw 所有数据完全本地存储，支持端到端加密和 WASM 沙箱隔离，让你在享受 AI 带来便利的同时，不用担心数据泄露的风险。无论你是注重隐私的个人用户，还是需要在企业内部使用 AI 的公司，IronClaw 都能为你提供安全可靠的 AI 助手解决方案。
+
+* content
+{:toc}
 
 
 
